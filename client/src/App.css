@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 1;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(240, 237, 237);
+  font-family: 'Rubik', sans-serif;
+  min-height: 100vh;
+}
+
+header {
+  color: #00695c;
+  font-size: 1.5rem;
+  background-color: #ffffff;
+  padding: 15px 10px;
+}
+
+header,
+section {
+  min-height: 13vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section input {
+  padding: 1rem;
+  font-size: 1rem;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  background: rgb(255, 255, 255);
+  min-width: 41%;
+}
+
+section button {
+  padding: 1rem;
+  font-size: 1rem;
+  color: #00695c;
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-left: 30px;
+}
+
+section button:hover {
+  background: #00695c;
+  color: white;
+  border: 1px solid black;
+}
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.todo-list {
+  min-width: 50%;
+  list-style: none;
+}
+
+.todo-content {
+  padding: 0.5rem;
+  margin-left: 10px;
+  background: rgb(255, 255, 255);
+  border-radius: 20px;
+}
+
+.todo {
+  margin: 0.5rem;
+  background: rgb(240, 237, 237);
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.5s ease;
+  border-radius: 20px;
+  margin-right: 40px;
+}
+.todo li {
+  flex: 100;
+}
+
+.edit-btn {
+  background: #00695c;
+  color: rgb(255, 255, 255);
+  flex: 7;
+  padding: 0.7rem;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.delete-btn {
+  background: #00695c;
+  color: rgb(255, 255, 255);
+  flex: 7;
+  padding: 0.7rem;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 20px;
+  border: 1px solid black;
+  margin-left: 10px;
+}
+
+.todo-item {
+  padding: 0rem 0.5rem;
+}
